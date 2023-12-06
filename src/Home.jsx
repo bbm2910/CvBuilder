@@ -4,11 +4,7 @@ import useFetch from './useFetch';
 import ErrorPicture from '/public/error.png';
 
 const Home = () => {
-	const {
-		data: cvs,
-		isLoading,
-		error,
-	} = useFetch('http://localhost:8000/cvs');
+	const { data: cvs, isLoading, error } = useFetch('/data/db.json');
 
 	return (
 		<div className='home'>

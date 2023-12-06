@@ -4,15 +4,11 @@ import ErrorPicture from '/public/error.png';
 
 const CVDetails = () => {
 	const { id } = useParams();
-	const {
-		data: cv,
-		error,
-		isLoading,
-	} = useFetch('http://localhost:8000/cvs/' + id);
+	const { data: cv, error, isLoading } = useFetch('/data/db.json' + id);
 	const navigate = useNavigate();
 
 	const handleDelete = () => {
-		fetch('http://localhost:8000/cvs/' + cv.id, {
+		fetch('/data/db.json' + cv.id, {
 			method: 'DELETE',
 		}).then(() => {
 			navigate('/');

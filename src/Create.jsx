@@ -82,7 +82,7 @@ const Create = () => {
 		};
 		setIsLoading(true);
 
-		fetch('http://localhost:8000/cvs', {
+		fetch('/data/db.json', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify(cv),
