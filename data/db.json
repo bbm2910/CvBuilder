@@ -1,0 +1,235 @@
+{
+	"cvs": [
+		{
+			"id": 1,
+			"personalInformation": {
+				"firstName": "John",
+				"lastName": "Doe",
+				"address": "123 Main Street, Paris, CA, 12345, USA",
+				"email": "john.doe@example.com",
+				"phone": "+1 (123) 456-7890",
+				"jobTitle": "Manager"
+			},
+			"education": [
+				{
+					"degree": "Bachelor of Science in Computer Science",
+					"school": "University of Fictional Tech",
+					"graduationYear": 2012
+				},
+				{
+					"degree": "Master of Science in Information Technology",
+					"school": "Fictional State University",
+					"graduationYear": 2014
+				}
+			],
+			"workExperience": [
+				{
+					"position": "Software Engineer",
+					"company": "Tech Innovators Inc.",
+					"startDate": "2014-07-01",
+					"endDate": "2020-12-31",
+					"responsibilities": [
+						"Developed and maintained web applications using HTML, CSS, and JavaScript.",
+						"Collaborated with cross-functional teams to deliver software projects on time.",
+						"Troubleshooted and debugged software issues to ensure optimal performance."
+					]
+				},
+				{
+					"position": "Senior Software Engineer",
+					"company": "Inventive Solutions Co.",
+					"startDate": "2021-01-15",
+					"endDate": null,
+					"responsibilities": [
+						"Lead a team of developers in the design and implementation of a new software product.",
+						"Conducted code reviews to maintain code quality and adherence to coding standards.",
+						"Provided technical expertise and support to junior team members."
+					]
+				}
+			],
+			"skills": [
+				"JavaScript",
+				"React",
+				"Node.js",
+				"Python",
+				"Java",
+				"HTML",
+				"CSS",
+				"Database Management",
+				"Agile Development",
+				"Problem Solving"
+			],
+			"languages": ["English"],
+			"certifications": [
+				{
+					"name": "Certified ScrumMaster (CSM)",
+					"issuedBy": "Scrum Alliance",
+					"year": 2016
+				},
+				{
+					"name": "AWS Certified Developer - Associate",
+					"issuedBy": "Amazon Web Services",
+					"year": 2018
+				}
+			],
+			"interests": [
+				"Open Source Projects",
+				"Hiking",
+				"Photography",
+				"Technology Trends"
+			]
+		},
+		{
+			"id": 2,
+			"personalInformation": {
+				"firstName": "Jane",
+				"lastName": "Smith",
+				"address": "456 Oak Avenue, Paris, CA, 56789, USA",
+				"email": "jane.smith@example.com",
+				"phone": "+1 (987) 654-3210",
+				"jobTitle": "Software Engineer"
+			},
+			"education": [
+				{
+					"degree": "Bachelor of Arts in Computer Science",
+					"school": "Tech University",
+					"graduationYear": 2015
+				},
+				{
+					"degree": "Master of Science in Software Engineering",
+					"school": "Innovation Institute",
+					"graduationYear": 2017
+				}
+			],
+			"workExperience": [
+				{
+					"position": "Junior Software Developer",
+					"company": "Code Wizards Ltd.",
+					"startDate": "2017-03-15",
+					"endDate": "2019-08-31",
+					"responsibilities": [
+						"Assisted in the development and testing of software applications.",
+						"Collaborated with team members to meet project deadlines.",
+						"Participated in code reviews and contributed to improving code quality."
+					]
+				},
+				{
+					"position": "Software Engineer",
+					"company": "Innovate Tech Solutions",
+					"startDate": "2020-01-10",
+					"endDate": null,
+					"responsibilities": [
+						"Designed and implemented new features for a cloud-based platform.",
+						"Collaborated with product managers to define software requirements.",
+						"Provided technical support to clients and resolved software issues."
+					]
+				}
+			],
+			"skills": [
+				"Java",
+				"Python",
+				"C++",
+				"JavaScript",
+				"Angular",
+				"SQL",
+				"Git",
+				"Agile Development",
+				"Problem Solving"
+			],
+			"languages": ["English", "Spanish"],
+			"certifications": [
+				{
+					"name": "Certified Software Development Professional (CSDP)",
+					"issuedBy": "IEEE",
+					"year": 2018
+				},
+				{
+					"name": "Google Cloud Certified - Associate Cloud Engineer",
+					"issuedBy": "Google Cloud",
+					"year": 2020
+				}
+			],
+			"interests": [
+				"Open Source Contributions",
+				"Traveling",
+				"Reading",
+				"AI and Machine Learning"
+			]
+		},
+		{
+			"id": 3,
+			"personalInformation": {
+				"firstName": "Alex",
+				"lastName": "Johnson",
+				"address": "789 Pine Street, York, NY, 45678, USA",
+				"email": "alex.johnson@example.com",
+				"phone": "+1 (567) 890-1234",
+				"jobTitle": "Data Scientist"
+			},
+			"education": [
+				{
+					"degree": "Bachelor of Science in Statistics",
+					"school": "Data Science Institute",
+					"graduationYear": 2013
+				},
+				{
+					"degree": "Master of Science in Data Science",
+					"school": "Analytics University",
+					"graduationYear": 2015
+				}
+			],
+			"workExperience": [
+				{
+					"position": "Data Analyst",
+					"company": "Insightful Analytics Corp.",
+					"startDate": "2015-06-20",
+					"endDate": "2018-12-15",
+					"responsibilities": [
+						"Performed data analysis and generated insights for business decision-making.",
+						"Developed and maintained data visualization dashboards for clients.",
+						"Collaborated with cross-functional teams to extract valuable insights from data."
+					]
+				},
+				{
+					"position": "Data Scientist",
+					"company": "AI Insights Labs",
+					"startDate": "2019-01-05",
+					"endDate": null,
+					"responsibilities": [
+						"Built predictive models using machine learning algorithms.",
+						"Conducted exploratory data analysis to identify patterns and trends.",
+						"Collaborated with stakeholders to define and refine project objectives."
+					]
+				}
+			],
+			"skills": [
+				"Python",
+				"R",
+				"Machine Learning",
+				"Data Analysis",
+				"SQL",
+				"Tableau",
+				"Statistical Modeling",
+				"Big Data Technologies"
+			],
+			"languages": ["English", "French"],
+			"certifications": [
+				{
+					"name": "Microsoft Certified: Azure Data Scientist Associate",
+					"issuedBy": "Microsoft",
+					"year": 2019
+				},
+				{
+					"name": "Certified Analytics Professional (CAP)",
+					"issuedBy": "INFORMS",
+					"year": 2020
+				}
+			],
+			"interests": [
+				"Data Ethics",
+				"Hiking",
+				"Data Visualization",
+				"Chess"
+			]
+		}
+	]
+}
